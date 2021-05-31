@@ -10,12 +10,12 @@ RTC_TimeTypeDef RTCtime;
 RTC_DateTypeDef RTCDate;
 
 //使用するWifiのSSIDとPasswordを記入する
-const char* ssid = "HWD14_D02DB3F780FD";
-const char* password = "000d8029n15qbyr";
+const char* ssid = "SSID";
+const char* password = "Password";
 
 //Lineのtokenを記入する
 const char* host = "notify-api.line.me";
-const char* token = "acLddeQtTZKWxNsWKdWawiWbH9qmgHIMoOHxIbO3D3f";
+const char* token = "token";
 WiFiClientSecure client;
 
 char timeStrbuff[64];
